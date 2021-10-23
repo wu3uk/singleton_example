@@ -17,8 +17,7 @@ class DBInstance {
         if (!DBInstance.instance) {
             DBInstance.instance = new DBInstance();
         }
-        return DBInstance.instance;
-        
+        return DBInstance.instance;  
     }
 
     public query(sql: string): void {
